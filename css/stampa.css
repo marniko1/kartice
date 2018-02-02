@@ -1,0 +1,68 @@
+#otpremnica {
+	background-color: white;
+	color: black;
+	padding: 0 20px;
+	width: 70%;
+}
+#podaci_firme {
+	line-height: .3;
+}
+#podaci_firme p {
+	font-size: 12px;
+}
+/*TABELA U OTPREMNICI*/
+#table {
+	height: 7cm;
+}
+#table table {
+	border-collapse: collapse;
+	width: 80%;
+	margin: auto;
+}
+#otpremnica #table tr, th, td {
+	border: 1px solid lightgrey;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+	height: 1px;
+	visibility: hidden;
+}
+#naziv_posiljaoca {
+	float: left;
+}
+#naziv_primaoca, #datum {
+	float: right;
+}
+#naslov {
+	text-align: center;
+	margin-bottom: 10px;
+}
+#naslov h4 {
+	display: inline;
+}
+#br_otpremnice {
+	font-size: 18px;
+}
+.otprem_aliasi {
+	text-align: left;
+	padding-left: 5px;
+}
+.potpis_posiljaoc {
+	margin: 0 0 5% 5%;
+	display: block;
+	float: left;
+}
+.potpis_primaoc {
+	float: right;
+	display: block;
+	margin: 0 5% 5% 0;
+}
+.otpremnica_footer {
+	text-align: center;
+	line-height: .8;
+}
+.otpremnica_footer #first_p {
+	font-weight: bold;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function keyPressed(e) {
+		     var key;      
+		     if(window.event)
+		          key = window.event.keyCode; //IE
+		     else
+		          key = e.which; //firefox      
+
+		     return (key != 13);
+		}
+		// $(input).val(
+  //   		function(index, value){
+  //      			return value.substr(0, value.length - 1);
+		// 	})
+	</script>
+</head>
+<body>
+	<form>
+		<input type="text" name="" maxlength="12" onKeyPress="return keyPressed(event)" oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+	</form>
+
+</body>
+</html>
