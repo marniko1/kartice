@@ -1,2 +1,2 @@
 # kartice
-aplikacija za vodjenje magacina kartica
+app for specific cards storage, procedural, not very proud of it
