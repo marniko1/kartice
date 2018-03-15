@@ -1,2 +1,2 @@
 # kartice
-app for specific cards storage, procedural, not very proud of it
+app for specific cards storage, procedural, PostgreSQL, not very proud of code but its functioning
